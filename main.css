@@ -1,20 +1,74 @@
+:root {
+  --lake-blue: #368290;
+  --sea-blue: #15343c;
+  --grass-green: #369247;
+  --soft-blue: #86c2ff;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+  background-color: var(--grass-green);
 }
 
 body {
   font-family: "Atkinson Hyperlegible", sans-serif;
   background-color: black;
   color: #e8e8e8;
+
+  background-image: url('/img/screenshot-20260817-3.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: var(--soft-blue);
+  text-shadow: 2px 2px 4px var(--sea-blue);
+}
+
+strong, em {
+  color: var(--soft-blue);
+  text-shadow: 2px 2px 4px var(--sea-blue);
+}
+
+.page :is(h1,h2,h3,h4,h5,h6) {
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  color: var(--soft-blue);
+  text-shadow: 2px 2px 4px var(--sea-blue);
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
+
   max-width: min(95vw, 40rem);
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+
+  min-height: calc(100vh - 4rem);
+  padding: 2rem;
+
+  background-color: #222;
+}
+
+@supports (backdrop-filter: blur()) {
+  .page {
+    background-color: unset;
+    backdrop-filter: blur(20px);
+  }
+}
+
+.spacer {
+  flex-grow: 1;
 }
 
 .footer {
