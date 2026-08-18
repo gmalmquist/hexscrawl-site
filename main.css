@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  background-color: black;
+  color: #e8e8e8;
+}
+
+.page {
+  max-width: min(95vw, 40rem);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer > * + * {
+  margin-top: 1rem;
+}
+

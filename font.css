@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Oh no it&#39;s gone</title>
+  <link rel="stylesheet" type="text/css" href="/all.css">
+  
+  <link link rel="alternate" type="application/rss+xml" href=https://gwenverbsnouns.com/feed-rss.xml title="gwenverbsnouns" />
+  <link link rel="alternate" type="application/rss+xml" href=https://gwenverbsnouns.com/notifications/feed-rss.xml title="gwenverbsnouns Notification Feed" />
+  <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
+  <script async type="text/javascript" src="/js/lib.js"></script>
+  
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="page-filter"></div>
+  <a class="gif-toggle floating" onclick="setAnimated(!STATE.animate)">
+    <img class="pixel-art" alt="GIFs are ON"
+         src="/img/gifs-on.gif"
+         data-bind-live-url="/img/gifs-on.gif"
+         data-bind-dead-url="/img/gifs-off.gif"
+    />
+  </a>
+  <div class="page solo">
+    <div class="article header">
+      
+      <a class="blog-title" href=https://gwenverbsnouns.com/ title="gwenverbsnouns">
+        <img src="/img/gwenverbsnouns-vector-logo.svg"
+             alt="gwen verbs nouns"
+        />
+      </a>
+      <div class="spacer"></div>
+      <div class="darkness"></div>
+      <div class="spacer"></div>
+      <div class="navigation">
+        <a href="/">HOME</a>
+        <a href="/search">SEARCH</a>
+        <a href="/projects">PROJECTS</a>
+        
+        
+        
+        <a href="/links">CONTACT</a>
+        <a class="gif-toggle linking" onclick="setAnimated(!STATE.animate)">
+          <img class="pixel-art" alt="GIFs are ON"
+               src="/img/gifs-on.gif"
+               data-bind-live-url="/img/gifs-on.gif"
+               data-bind-dead-url="/img/gifs-off.gif"
+          />
+        </a>
+      </div>
+    </div>
+
+
+<div class="readable article">
+  <div class="spacer"></div>
+  <h1 class="title">Oh no it's gone</h1>
+  <div class="spacer"></div>
+  <div class="paper">
+    <p>The thing you were looking for—was it a blog post? an image? a long lost avuncular relation?—is gone, possibly forever. At the very least, it's not here. I'm so terribly sorry for your loss.
+    <p>If it was a blog post, you can <a href="/search">search for it here</a> by what tags you think it might have had. Or just page through the entire list of everything I've published on this site, if you're really motivated.
+  </div>
+  <div class="spacer"></div>
+  <div class="paper">
+    <p>If you got here via a link on this website, please let me know where you found it so I can <strike>yell at</strike> fix it. You can find my email <a href="/#email-card">here</a> on my homepage.
+  </div>
+  <div class="spacer"></div>
+</div>
+    <div class="article footer">
+      <div class="spacer"></div>
+      <div class="buttons bugs">
+        <a data-loot="eggbug" data-loot-kind="deco bug gif stamp link" href="https://cohost.org/holomancy/post/7749593-eggbug-forever-stamp" target="blank_">
+          <img src="/img/eggbugforeverowo.png"/>
+        </a>
+        <a data-loot="eggbug" data-loot-kind="deco bug stamp gif link" href="https://axolotine.neocities.org/about" target="blank_">
+          <img src="/img/eggbug-1000x.png"/>
+        </a>
+        <a data-loot="eggbug" data-loot-kind="deco bug stamp gif link" href="https://cohost.org/holomancy/post/7749593-eggbug-forever-stamp" target="blank_">
+          <img src="/img/eggbugforever=w=.png"/>
+        </a>
+      </div>
+      <div class="buttons">
+        
+<a href="https://crouton.net/" title="crouton" target="blank_" data-loot="crouton" data-loot-kind="88x31 btn link">
+  <img src="/img/88x31/crouton.png" />
+</a>
+<a href="https://sweetfish.site" title="sweet fish dot site - Ayu's Webhouse" target="blank_">
+  <img src="/img/88x31/sweetfish.png" alt="sweet fish dot site" />
+</a>
+<a href="https://blog.platinumtulip.net/" title="Platinum Tulip" target="blank_">
+  <img src="/img/88x31/platinum-tulip.png" />
+</a>
+<a href="https://nex-3.com" title="House of Nettles - Natalie's Blog" target="blank_">
+  <img src="/img/88x31/nex3.gif" alt="House of Nettles" />
+</a>
+<a href="https://executable.graphics" title="executable graphics" target="blank_">
+  <img src="/img/88x31/executable.graphics.png" alt="executable graphics" />
+</a>
+<a href="https://moonbase.lgbt" title="Moonbase Dot LGBT" target="_blank">
+  <img src="/img/88x31/moonbase.gif" alt="Moonbase Dot LGBT" />
+</a>
+<a href="https://blog.aurahack.jp" title="aurahack's blog - days and wonder" target="blank_">
+  <img src="https://aurahack.neocities.org/88x31.gif" alt="aurahack's blog - days and wonder"
+       data-bind-live-url="https://aurahack.neocities.org/88x31.gif"
+       data-bind-dead-url="/img/88x31/aurahack-88x31-still.gif"
+  />
+</a>
+<a href="https://jkap.io" title="JKAP" target="blank_">
+  <img src="https://files.crime.team/site/jkap-88x31.gif" />
+</a>
+<a href="https://ewie.online" title="Evie On-Line" target="blank_">
+  <img src="/img/88x31/evie.png" data-bind-remote-src="https://cdn.ewie.online/88x31-evie.png" alt="Evie On-Line" />
+</a>
+<a href="https://lifning.info/" title="lif blog - premium entertainment at volunteer prices" target="blank_">
+  <img src="/img/88x31/lifning.info.png" alt="lif blog - premium entertainment at volunteer prices" />
+</a>
+<a href="https://microformats.org/wiki/h-entry" title="H-Entry" target="blank_" data-loot="h-entry 88x31" data-loot-kind="88x31 btn link">
+  <img
+    src="/img/88x31/h-entry-animated.gif"
+    alt="H-Entry"
+    data-bind-live-url="/img/88x31/h-entry-animated.gif"
+    data-bind-dead-url="/img/88x31/h-entry-still.gif"
+    data-bind-press-url="/img/88x31/h-entry-pressed.gif"
+  />
+</a>
+
+
+        
+        <img src="/img/88x31/moon-enjoyer.png" alt="moon enjoyer" title="MOON ENJOYER" 
+            data-loot="moon enjoyer 88x31 button"
+            data-loot-kind="88x31 button deco"
+        />
+        <a href="https://mykocalico.neocities.org/buttons" target="blank_">
+          <img
+            src="/img/88x31/i-was-on-cohost.gif"
+            data-bind-live-url="/img/88x31/i-was-on-cohost.gif"
+            data-bind-dead-url="/img/88x31/i-was-on-cohost.png"
+            title="i was on cohost"
+            alt="i was on cohost"
+            data-loot="cohost 88x31 button"
+            data-loot-kind="88x31 button deco gif"
+          />
+        </a>
+        <a>
+          <img src="/img/88x31/trn.png" title="TRANS RIGHTS Now!" 
+            data-loot="trans rights now 88x31 button"
+            data-loot-kind="88x31 button deco"
+          />
+        </a>
+        
+      </div>
+      <div class="blogshare">
+        <span>Link to my blog!</span>
+        <a href="https://gwenverbsnouns.com" title="GWEN VERBS NOUNS dot COM" target="blank_">
+          <img
+            alt="An animated 88x31 gif for this blog. It variously shows a book with a rainbow of polyhedral dice flipping through its pages, a flower growing, and a moon."
+            title="GWEN VERBS NOUNS"
+            class="pixel-art"
+            src="/img/88x31/gwenverbsnouns.gif"
+            data-bind-live-url="/img/88x31/gwenverbsnouns.gif"
+            data-bind-dead-url="/img/88x31/gwenverbsnouns-still.gif"
+          />
+        </a>
+        <textarea>
+&lt;a href="https://gwenverbsnouns.com" title="GWEN VERBS NOUNS dot COM"  target="blank_">
+  &lt;img
+    alt="An animated 88x31 gif for gwenverbsnouns.com. It variously shows a book with a rainbow of polyhedral dice flipping through its pages, a flower growing, and a moon."
+    title="GWEN VERBS NOUNS"
+    style="image-rendering: pixelated;"
+    src="https://gwenverbsnouns.com/img/88x31/gwenverbsnouns.gif"
+  />
+&lt;/a>
+        </textarea>
+      </div>
+      <a class="ko-fi-link" href='https://ko-fi.com/L3L66DV3L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+      <div class="copyright">
+        <p>Open Font Licenses used: <a href="/font/AtkinsonHyperlegible-OFL.txt">Atkinson Hyperlegible</a> and <a href="/font/CrimsonText-OFL.txt">Crimson Text</a>.
+        <p>
+        © 2024 Gweneth Malmquist, all rights reserved
+      </div>
+    </div>
+  </div>
+  <div class="hide" data-bind-modal-pane>
+    <div class="article alt">
+      <div class="article-head">
+      </div>
+      <div class="article-title" data-bind-modal-title>
+      </div>
+      <div data-bind-modal-body></div>
+      <div class="actions">
+        <div class="spacer"></div>
+        <button class="btn" type="button" data-bind-modal-no>No</button>
+        <button class="btn" type="button" data-bind-modal-yes>Yes</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
