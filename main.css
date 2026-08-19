@@ -85,3 +85,46 @@ h2, h3, h4, h5, h6 {
   margin-top: 1rem;
 }
 
+.demo-button {
+  background-color: var(--lake-blue);
+  background: linear-gradient(
+    to bottom,
+    var(--lake-blue),
+    var(--sea-blue)
+  );
+  color: var(--soft-blue);
+  text-shadow: 2px 2px 4px var(--sea-blue);
+  border: thin solid var(--sea-blue);
+  border-radius: 0.25rem;
+
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+  width: min-content;
+  padding: 0.5rem 1rem;
+
+  font-weight: bold;
+  font-family: "Crimson Text", serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+
+  white-space: nowrap;
+}
+
+.demo-button:hover {
+  background-image: unset;
+  background-color: var(--lake-blue);
+  color: var(--soft-blue);
+}
+
+.demo-button:active {
+  background: linear-gradient(
+    to top,
+    var(--lake-blue),
+    var(--sea-blue)
+  );
+}
+
