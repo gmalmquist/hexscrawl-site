@@ -33,6 +33,14 @@ strong, em {
   text-shadow: 2px 2px 4px var(--sea-blue);
 }
 
+#main-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+  width: 100%;
+}
+
 .page :is(h1,h2,h3,h4,h5,h6) {
   font-family: "Crimson Text", serif;
   font-weight: bold;
