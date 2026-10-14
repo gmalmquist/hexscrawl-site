@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Add-Ons | HexScrawl</title>
+  <link rel="stylesheet" type="text/css" href="/font.css">
+  <link rel="stylesheet" type="text/css" href="/main.css">
+</head>
+<body>
+  <div class="page centered">
+    <a href="/"><img src="/img/HexScrawl-Logo.svg" id="main-logo" class="small" alt="Hex Scrawl Logo" title="HexScrawl"/></a>
+    <h1 id="add-ons">Add-Ons</h1>
+    <p>HexScrawl supports two kinds of add-ons: Asset Bundles and Frontend Extensions. Asset Bundles do not require technical knowledge to create; Frontend Extensions generally do.
+    <h2 id="toc">Table of Contents</h2>
+    <ol class="toc">
+      <li><a href="#toc">Table of Contents</a>
+      <li><a href="#asset-bundles">Assets Bundles</a>
+      <li><a href="#frontend-extensions">Frontend Extensions</a>
+    </ol>
+    <h2 id="asset-bundles">Asset Bundles</h2>
+    <p>Asset Bundles add new tilesheets, terrain types, markers, and/or trim (rivers, cliffs, roads, etc).
+    <p>To <strong>install</strong> an asset bundle, click the button in the <strong>Assets tab in the app settings menu</strong> (click the gear in the top-left), or copy the assets into the <strong>Asset Folder</strong>.
+    <img class="screenshot" alt="assets tab" src="/img/hexscrawl-assets-tab.png">
+    <p>You can change the location of the asset direction by adding the command line arguments: <pre class="code">-a /my/custom/asset/directory/path</pre>
+    <p>To <strong>create</strong> an asset bundle, it is recommended to use the asset bundler tool built into the app. You can access it through the link in the Assets tab in settings, or you can access the latest version online here: <a href="https://demo.hexscrawl.com/bundler">HexScrawl Asset Bundler</a>.
+    <p><strong>You own asset bundles you create</strong> using your own art and the core art assets packaged with HexScrawl. If you incorporate third party intellectual property, additional restrictions may apply. Refer to the <a href="https://demo.hexscrawl.com/licenses/eula.txt">HexScrawl EULA</a> for full legal details.
+
+    <h2 id="frontend-extensions">Frontend Extensions</h2>
+    <p>Frontend Extensions add or overwrite frontend code using standard html, javascript, and css.
+    <p>To create or install a Frontend Extension, add files to the <strong>Web Folder</strong> (create it if it does not already exist). You can find the location of the web folder in the Server tab in the settings menu.
+    <p><strong>Installing Frontend Extensions is risky,</strong> as they execute arbitrary frontend code. This could (for example) corrupt map save files, or break the app completely until you delete the extension files. Make sure you only install extensions from trusted sources.
+    <img class="screenshot" alt="server tab" src="/img/hexscrawl-server-tab.png">
+    <p>You can change the location of the Web Folder by adding the command line arguments:
+    <pre class="code">-w /my/custom/web/directory</pre>
+    <p><strong>Creating Frontend Extensions</strong> requires a degree of technical aptitude with html, javascript, and css. The base code of the app is not currently documented, and its API is not guaranteed to be stable. Extension creators are responsible for maintaining their code to be compatible with the latest version of HexScrawl (or at minimum, expressly stating to the user what versions it is compatible with).
+    <p>The contents of the Web Folder are directly served by the frontend, such that the index page serving the base app is at [Web Folder]/index.html. The structure of this directory is not documented or stable; you can use the browser developer console in the <a href="https://demo.hexscrawl.com">HexScrawl Demo</a> to inspect the structure and function. You can use the 'App' global variable to access the instance of the app class (see https://demo.hexscrawl.com/app.js), from which you can access all the core internal state and functionality built into HexScrawl.
+
+    <div class="spacer"></div>
+    <div class="footer">
+      <a href="https://gwenverbsnouns.com/projects">
+        <img src="/img/gwenverbsnouns-vector-logo.svg" alt="gwen verbs nouns logo" style="height: 3rem;">
+      </a>
+      <div class="copyright">
+        <p>Fonts licenses: <a href="/font/AtkinsonHyperlegible-OFL.txt">Atkinson Hyperlegible</a> and <a href="/font/CrimsonText-OFL.txt">Crimson Text</a>.
+        <p>
+        © 2026 Gweneth Malmquist, all rights reserved
+      </div>
+    </div>
+  </div>
+</body>
