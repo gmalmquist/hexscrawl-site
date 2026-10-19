@@ -1,8 +1,10 @@
 :root {
   --lake-blue: #368290;
   --sea-blue: #15343c;
-  --grass-green: #369247;
   --soft-blue: #86c2ff;
+  --grass-green: #369247;
+  --moss-green: #153b1c;
+  --pale-green: #99daa6;
 }
 
 html, body {
@@ -132,16 +134,20 @@ p + pre.code {
   margin-top: 0;
 }
 
-.demo-button {
+.demo-button, .store-button {
+  --fg: var(--soft-blue);
+  --bg-dark: var(--sea-blue);
+  --bg-light: var(--lake-blue);
+
   background-color: var(--lake-blue);
   background: linear-gradient(
     to bottom,
-    var(--lake-blue),
-    var(--sea-blue)
+    var(--bg-light),
+    var(--bg-dark)
   );
-  color: var(--soft-blue);
-  text-shadow: 2px 2px 4px var(--sea-blue);
-  border: thin solid var(--sea-blue);
+  color: var(--fg);
+  text-shadow: 2px 2px 4px var(--bg-dark);
+  border: thin solid var(--bg-dark);
   border-radius: 0.25rem;
 
   display: block;
@@ -161,17 +167,40 @@ p + pre.code {
   white-space: nowrap;
 }
 
-.demo-button:hover {
+:is(.demo-button, .store-button):hover {
   background-image: unset;
-  background-color: var(--lake-blue);
-  color: var(--soft-blue);
+  background-color: var(--bg-light);
+  color: var(--fg);
 }
 
-.demo-button:active {
+:is(.demo-button, .store-button):active {
   background: linear-gradient(
     to top,
-    var(--lake-blue),
-    var(--sea-blue)
+    var(--bg-light),
+    var(--bg-dark)
   );
+}
+
+.store-button {
+  --fg: var(--pale-green);
+  --bg-light: var(--grass-green);
+  --bg-dark: var(--moss-green);
+}
+
+.storefronts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  text-align: center;
+  font-size: 1.1rem;
+
+  * {
+    flex-grow: 1;
+    margin: 0 0.5rem;
+  }
 }
 
